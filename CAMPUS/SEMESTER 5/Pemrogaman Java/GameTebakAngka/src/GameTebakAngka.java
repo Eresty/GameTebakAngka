@@ -25,6 +25,9 @@ public class GameTebakAngka {
             
             break;}
     
+    else if ( b < a ){
+            System.out.println("Sorry..., angka yang anda masukkan terlalu KECIL.");}
+        
    
 
 
