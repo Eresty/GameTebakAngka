@@ -19,7 +19,13 @@ public class GameTebakAngka {
             int b = jawab.nextInt();
              
             
+    if (c > 0 ){
+    if ( b == a ){
+            System.out.println("CONGRATULATION!!! Angka yang anda masukkan BENAR!");
+            
+            break;}
     
+   
 
 
     
