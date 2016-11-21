@@ -34,7 +34,18 @@ public class GameTebakAngka {
             System.out.println("");
             c--;}
         
-   
+    else{
+            System.out.println("---------------------------------------------------");
+            System.out.println("ANDA SALAH!!KESEMPATAN TELAH HABIS. SILAHKAN COBA LAGI");
+            System.out.println("ANGKA YANG DIMAKSUD ADALAH " + a);
+            System.out.println("---------------------------------------------------");
+    
+            break;
+            }
+        }
+    while ( c >=0 );
+            }
+        }
 
 
     
