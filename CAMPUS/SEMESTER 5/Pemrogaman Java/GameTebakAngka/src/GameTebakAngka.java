@@ -11,7 +11,16 @@ public class GameTebakAngka {
             System.out.println("MARI MENEBAK ANGKA 0 - 100 DENGAN 5X KESEMPATAN");
             System.out.println("-----------------------------------------------");
             
-   
+    do{
+            System.out.println("");
+            System.out.println("BERAPAKAH ANGKA YANG ANDA TEBAK????");
+            
+            Scanner jawab = new Scanner (System.in);
+            int b = jawab.nextInt();
+             
+            
+    
+
 
     
     
