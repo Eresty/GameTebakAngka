@@ -28,6 +28,12 @@ public class GameTebakAngka {
     else if ( b < a ){
             System.out.println("Sorry..., angka yang anda masukkan terlalu KECIL.");}
         
+    else if ( b > a ){
+            System.out.println("Sorry..., angka yang anda masukkan terlalu BESAR.");}
+            System.out.println("Anda Memiliki " + c + " Kesempatan Lagi");
+            System.out.println("");
+            c--;}
+        
    
 
 
