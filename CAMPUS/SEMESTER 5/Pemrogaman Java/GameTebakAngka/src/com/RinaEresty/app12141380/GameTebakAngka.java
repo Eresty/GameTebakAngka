@@ -132,4 +132,16 @@ public class GameTebakAngka {
             
             
         }        
-    
+    while(!"y".equals(cariY)); 
+        int jumPemain=namaPemain.size(); 
+        System.out.println("SCORE AKHIR");
+        System.out.println("=================================");
+        
+        int l;
+        for(l=0;l<jumPemain-1;l++){
+            System.out.println(namaPemain.get(l) + " : " + sekorPermainan.get(l)); 
+        }
+    }
+}
+
+
