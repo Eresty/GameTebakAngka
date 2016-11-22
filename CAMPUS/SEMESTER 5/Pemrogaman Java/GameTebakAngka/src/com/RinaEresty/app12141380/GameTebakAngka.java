@@ -87,5 +87,20 @@ public class GameTebakAngka {
             System.out.println("Sekor anda adalah " + NilaiPasJalan);
             break;
 
-           
+            }
+            else{ 
+            if(AkuTeb>AngKaAcak){
+                System.out.println("Sorry..., angka yang anda masukkan terlalu BESAR.!"); 
+                System.out.println("Anda mempunyai kesempatan " + Kurang + " kali lagi");
+                    }
+            else{
 
+                System.out.println("Sorry..., angka yang anda masukkan terlalu BESAR.!"); 
+                System.out.println("Anda mempunyai kesempatan " + Kurang + " kali lagi");
+                                
+                }
+            }
+        }
+    }
+                    
+           
