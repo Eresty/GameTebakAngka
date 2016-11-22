@@ -82,4 +82,10 @@ public class GameTebakAngka {
                 }
                 
             
-            
+            int NeTebak=Kout+1;                  
+            System.out.println("CONGRATULATION!!! Angka yang anda masukkan BENAR! " + NeTebak + " kali tebakan.");
+            System.out.println("Sekor anda adalah " + NilaiPasJalan);
+            break;
+
+           
+
