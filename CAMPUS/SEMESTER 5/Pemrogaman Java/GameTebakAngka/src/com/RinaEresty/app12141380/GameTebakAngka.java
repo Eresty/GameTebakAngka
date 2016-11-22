@@ -27,5 +27,14 @@ public class GameTebakAngka {
             System.out.println("MARI MENEBAK ANGKA 1 - 100 DENGAN 5X KESEMPATAN");
             System.out.println("===============================================");
         
-    
-
+    do{
+        System.out.println("Masukkan 'Nama Anda' atau tekan 'y' untuk keluar, kemudian tekan enter = ");
+        cariY=input.nextLine();
+        namaPemain.add(cariY);
+        int NilaiJalan = 0; 
+        int CekGameOver=0; 
+            
+        int aKumulasi[]= new int[6]; 
+        int NilaiPasJalan=0; 
+            
+        
