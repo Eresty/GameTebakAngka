@@ -1,8 +1,21 @@
+package com.rinaseptiana.app12141380;
+import java.util.ArrayList;
 import java.util.Scanner;
+
+/**
+ * 12141380
+ * @author Rina Septiana
+ */
+
 public class GameTebakAngka {
+    private static Object pemain;
     public static void main(String[] args) {
+            ArrayList <String> namaPemain = new ArrayList<>(); // Membuat array Nama Pemain
+            ArrayList <Integer> sekorPermainan = new ArrayList<>(); // Membuat array Sekor Pemain
             Scanner input = new Scanner(System.in);
-            System.out.print("Masukkan Nama Anda: ");
+            System.out.print("Masukkan 'Nama Anda' atau tekan 'Y' untuk keluar, kemudian tekan enter :  ");
+            String cariY = null;
+            namaPemain.add(cariY);
             String nama = input.nextLine();
         
         int a = (int)(Math.random() *100);
@@ -39,7 +52,7 @@ public class GameTebakAngka {
             System.out.println("ANDA SALAH!!KESEMPATAN TELAH HABIS. SILAHKAN COBA LAGI");
             System.out.println("ANGKA YANG DIMAKSUD ADALAH " + a);
             System.out.println("---------------------------------------------------");
-    
+            
             break;
             }
         }
