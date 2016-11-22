@@ -54,4 +54,16 @@ public class GameTebakAngka {
         System.out.println("Anda mempunyai kesempatan menebak 5 kali.");
         int AngKaAcak=angkaRandom.nextInt(Pang); 
                    
-   
+    for(Kout=0;Kout<=5;Kout++){
+        if(Kout==5){ 
+            System.out.println("GAMEOVER! Anda Gagal");
+            CekGameOver++; 
+            }
+        else{  
+            System.out.println("Tebakan Anda ? " );
+            int AkuTeb=input2.nextInt(); 
+            int Kurang=4-Kout;
+        if(AkuTeb==AngKaAcak){ 
+                                
+           
+
