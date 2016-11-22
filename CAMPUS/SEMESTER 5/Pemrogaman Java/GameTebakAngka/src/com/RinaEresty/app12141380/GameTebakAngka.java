@@ -120,4 +120,16 @@ public class GameTebakAngka {
             }
                    
         }
-   
+    while(!"exit".equals(nextLevel));
+              
+              // ------------------- END OF SCRIPT GAME TEBAK-----------------------//
+        } 
+           
+        for(int rO=0; rO<5; rO++){ 
+            NilaiJalan=NilaiJalan+aKumulasi[rO];  
+            }
+            sekorPermainan.add(NilaiJalan); 
+            
+            
+        }        
+    
