@@ -45,5 +45,13 @@ public class GameTebakAngka {
             int PiLevel=1;   
             System.out.println("Selamat Datang " + cariY);
                 
-    
-
+    do{
+        int Kout, Ang, Pang;
+        System.out.println("# Level " + PiLevel);
+        int StarNilaiO=PiLevel-1;    
+        Pang=PiLevel*100; 
+        System.out.println("Silahkan Tebak Antara 1 s/d " + Pang);
+        System.out.println("Anda mempunyai kesempatan menebak 5 kali.");
+        int AngKaAcak=angkaRandom.nextInt(Pang); 
+                   
+   
