@@ -37,4 +37,13 @@ public class GameTebakAngka {
         int aKumulasi[]= new int[6]; 
         int NilaiPasJalan=0; 
             
-        
+        if(!("y").equals(cariY)){  
+            
+              // ------------------- START SCRIPT GAME TEBAK ANGKA DISINI -------------------------- //
+            
+            String nextLevel; 
+            int PiLevel=1;   
+            System.out.println("Selamat Datang " + cariY);
+                
+    
+
