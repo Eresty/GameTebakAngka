@@ -103,4 +103,21 @@ public class GameTebakAngka {
         }
     }
                     
-           
+            if(CekGameOver>0){
+            break;
+            }
+                    
+            if(PiLevel==5){ 
+            break;
+            }
+            
+            else{
+                aKumulasi[StarNilaiO]=NilaiPasJalan;   
+                System.out.println("Ketik 'next' dan tekan enter untuk lanjut ke Level berikutnya atau ketik 'exit' untuk keluar : ");
+                nextLevel=input.nextLine(); 
+                PiLevel++; 
+                    
+            }
+                   
+        }
+   
